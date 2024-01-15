@@ -17,6 +17,8 @@
   width: 250px;
 }
 
+
+
  #landing, #tools{
   background:linear-gradient(0deg ,#F5F0EC, #E6C0BD);
   
@@ -37,5 +39,50 @@
 
 #projects .card {
   background-color: #E8E3DE;
+}
+
+/* #landing{
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+  transition-property: transform;
+  transition-duration: 3s;
+}
+
+
+
+@keyframes show {
+  0% {opacity:0}
+  100%{opacity:1}
+} */
+
+#content{
+  position: relative;
+  animation-name: show;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+  
+}
+
+@keyframes show {
+  0% {right:-1000px;}
+  100%{right:0;}
+}
+
+#profile-picture{
+  position: relative;
+  animation-name: content;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes content {
+  0% {top:-1000px;}
+  100%{top:0;}
 }
 
