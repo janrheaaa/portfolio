@@ -1,0 +1,41 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#name h2{
+  font-family: "Open Sans", sans-serif;
+}
+
+#title-name{
+  font-family:  "Playfair Display", serif;;
+}
+
+#profile-picture {
+  width: 250px;
+}
+
+ #landing, #tools{
+  background:linear-gradient(0deg ,#F5F0EC, #E6C0BD);
+  
+}
+
+#contact, #projects {
+  background:linear-gradient(0deg, #E6C0BD,#F5F0EC);
+}
+
+.navbar, .footer{
+  background-color: #E6C0BD;
+ 
+}
+
+.landing-font, #projects h2, #contact h2, #tools h2, label {
+  color: #5C5A63;
+}
+
+#projects .card, .submit-button{
+  background-color: #E8E3DE;
+}
+
